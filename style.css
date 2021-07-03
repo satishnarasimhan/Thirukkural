@@ -176,4 +176,15 @@ button {
   #gen a {
     text-decoration: none;
   }
+  
+  @media screen 
+   and (max-device-width: 800px) 
+    and (max-device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) {
+      p {
+        font-size: 1em;
+      }
+  }
+  
   /* Carousel based CSS specifics */
