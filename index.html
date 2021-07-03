@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>திருக்குறள்</title>
+</head>
+<body>
+    <!--<h1>Quote of the day</h1>-->
+    <body onload="fetchTime(); fetchDate()">      
+        <div class="container">
+          <div id="date"></div>
+          <div id="display"></div>
+          <div id="content">
+            <p class="lang-para" id="kuralDisplay-el">அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு</p>
+            <p class="demo-para" id="transDisplay-el">agara mudhala ezhuththellaam Aadhi Bagavan mudhatRae ulaku</p>
+            <p id="meaningDisplay-el">As is the letter 'A' in languages, so is the Sun; the Primal Diety of the world</p>
+          </div>
+        </div>         
+        <div id="b-nav">
+            <ul>
+                <button onclick = "newQuote()">அடுத்தது</button>
+            </ul>
+        </div>
+    <script src = "javascript.js"></script>
+    <script src = "quotes.js"></script>
+            
+</body>
+</html>
