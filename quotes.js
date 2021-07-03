@@ -19,7 +19,7 @@ trans = [
 ]
 
 meaning = [
-    "As is the letter 'A' in languages, so is the Sun; the Primal Diety of the world",
+    "As is the letter 'A' in languages, so is the Sun; the Primal Deity of the world",
     "Of what avail is education, if one does not follow the learned, the pure?",
     "Those who follow the light of nobility, their fame will survive this world",
     "To those who meditate on Him, void of desire or aversion, face no impediments in life",
