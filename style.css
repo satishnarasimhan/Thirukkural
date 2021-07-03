@@ -178,8 +178,8 @@ button {
   }
   
   @media screen 
-   and (max-device-width: 800px) 
-    and (max-device-height: 640px) 
+   and (max-device-width: 50em) 
+    and (max-device-height: 37em) 
     and (-webkit-device-pixel-ratio: 2) 
     and (orientation: portrait) {
       p {
