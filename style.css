@@ -178,13 +178,26 @@ button {
   }
   
   @media screen 
-   and (max-device-width: 50em) 
-    and (max-device-height: 37em) 
+   and (max-device-width: 25em) 
+    and (max-device-height: 18em) 
     and (-webkit-device-pixel-ratio: 2) 
     and (orientation: portrait) {
       p {
         font-size: 1em;
       }
+  }
+
+  @media only screen and (min-width: 601px) {
+    div.id {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    div.id {
+      font-size: 30px;
+    }
   }
   
   /* Carousel based CSS specifics */
