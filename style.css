@@ -1,203 +1,186 @@
 html, body {
-    /* Font specifics */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(194, 183, 183);
-    /* Image specifics */
-    overflow-x: hidden;
-    overflow-y: hidden; 
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    /* Background specifics */
-    background-color: black;
-    background-image: url(images/sunset.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  /* Font specifics */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(194, 183, 183);
+  /* Image specifics */
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* Background specifics */
+  background-color: black;
+  background-image: url(images/sunset.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
-
 #kuralDisplay-el {
-  font-style:normal;
-  font-size:1.7em;
-  padding-top:0.3em;
-  padding-bottom: 0.3em;
-  font-weight:bold;
-  border:none;
+font-style:normal;
+font-size:1.7em;
+padding-top:0.3em;
+padding-bottom: 0.3em;
+font-weight:bold;
+border:none;
 }
 
 .demo-para {
-  font-style:italic;
-  font-weight:normal;
+font-style:italic;
+font-weight:normal;
 }
 
 .lang-para {
-  font-family: "InaiMathi", "Tamil Sangam MN", "Nirmala UI", Latha, Bamini ,Roboto, Noto, "Noto Sans Tamil", sans-serif;
-  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+font-family: "InaiMathi", "Tamil Sangam MN", "Nirmala UI", Latha, Bamini ,Roboto, Noto, "Noto Sans Tamil", sans-serif;
+unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
 }
 
-
 #display {
-    color: rgb(194, 183, 183);
-    font-size: 2.9em;
-    top: 0.625em;
-    border-bottom: thin solid;
-    padding-bottom: 1.25em;
-    opacity: 0.80;
-  }
-  
+  color: rgb(194, 183, 183);
+  font-size: 2.9em;
+  top: 0.625em;
+  border-bottom: thin solid;
+  padding-bottom: 1.25em;
+  opacity: 0.80;
+}
+
 #date {
-    color: rgb(194, 183, 183);
-    font-size: 1.3em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.2em;
-    opacity: 0.6;
-    
-  }
+  color: rgb(194, 183, 183);
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+  
+}
 
 #line {
-    width: 100%;
-    bottom: 4em;
-    position: fixed;
-    border-bottom: solid white;
-    padding: 1em;
-    opacity: 0.5;
-  }
-  
+  width: 100%;
+  bottom: 4em;
+  position: fixed;
+  border-bottom: solid white;
+  padding: 1em;
+  opacity: 0.5;
+}
+
 #content {
-    height: 45em;
-  } 
-  
+  height: 45em;
+} 
+
 p {
-    max-width: 30em;
-    color: rgb(194, 183, 183);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing:0.1em;
-    text-align:center;
-    margin: 2.5em auto;
-    text-transform:none;
-    line-height: 145%;
-    font-size: 1.3em;
-    font-variant:initial;
-  }
-  
-  p :hover {
-    text-decoration: none;
-  }
-  
-  .container {
-    padding-top: 6em;
-    text-align: center;
-  }
-  
+  max-width: 30em;
+  color: rgb(194, 183, 183);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 2.5em auto;
+  text-transform:none;
+  line-height: 115%;
+  font-size: 1.3em;
+  font-variant:normal;
+}
+
+p :hover {
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 6em;
+  text-align: center;
+}
+
 h1 {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 button {
-    background-color: goldenrod;
-    width: 9em;
-    color: #016f32;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    font-weight: bold;
-    border: none;
-    border-radius: 0.125em;
-    margin-bottom: 0.125em;
-    margin-top: 0.125em;
-    height: 2.5em;
-    width: 6.25;
-    border-radius: 0.125em;
-    transition: 0.5s;
-    opacity: 0.7;
+  background-color: goldenrod;
+  width: 9em;
+  color: #016f32;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.125em;
+  margin-bottom: 0.125em;
+  margin-top: 0.125em;
+  height: 2.5em;
+  width: 6.25;
+  border-radius: 0.125em;
+  transition: 0.5s;
+  opacity: 0.7;
 }
 
 
 .container {
-    padding-top: 5em;
-    text-align: center;
-  }
-  
-  #b-nav {
-    padding-bottom: 2em;
-    position: fixed;
-    width: 100%;
-    bottom: 0.5em;
-  }
-  
-  #b-nav ul {
-    margin: 0;
-    padding: 0.5em;
-    list-style-type: none;
-    text-align: center;
-  }
-  
-  #b-nav ul li {
-    display: inline;
-  }
-  
-  #b-nav ul li a {
-    text-decoration: none;
-    padding: .2em 1em;
-    background-color: black;
-    opacity: 0.4;
-  }
-  
-  .hold {
-    width: 100%;
-    text-align: left;
-  }
-  
-  #gen {
-    outline: none;
-    padding-top: 0.3125em;
-    text-decoration: none;
-    opacity: 0.6;
-    background-color: black;
-    color: rgb(110, 104, 104);
-    border: thin solid white;
-    height: 2.5em;
-    width: 6.25em;
-    border-radius: 0.125em;
-    transition: 0.5s;
-    padding-bottom: 0.3125em;
-  }
-  
-  #gen:hover {
-    background-color: white;
-    color: black;
-    border: thin solid black;
-    opacity: 0.8;
-  }
-  
-  #gen a {
-    text-decoration: none;
-  }
-  
-  @media screen 
-   and (max-device-width: 25em) 
-    and (max-device-height: 18em) 
-    and (-webkit-device-pixel-ratio: 2) 
-    and (orientation: portrait) {
-      p {
-        font-size: 1em;
-      }
-  }
+  padding-top: 5em;
+  text-align: center;
+}
 
-  @media only screen and (min-width: 601px) {
-    div.id {
-      font-size: 80px;
+#b-nav {
+  padding-bottom: 2em;
+  position: fixed;
+  width: 100%;
+  bottom: 0.5em;
+}
+
+#b-nav ul {
+  margin: 0;
+  padding: 0.5em;
+  list-style-type: none;
+  text-align: center;
+}
+
+#b-nav ul li {
+  display: inline;
+}
+
+#b-nav ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.hold {
+  width: 100%;
+  text-align: left;
+}
+
+#gen {
+  outline: none;
+  padding-top: 0.3125em;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: rgb(110, 104, 104);
+  border: thin solid white;
+  height: 2.5em;
+  width: 6.25em;
+  border-radius: 0.125em;
+  transition: 0.5s;
+  padding-bottom: 0.3125em;
+}
+
+#gen:hover {
+  background-color: white;
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+}
+
+#gen a {
+  text-decoration: none;
+}
+
+@media screen 
+ and (max-device-width: 800px) 
+  and (max-device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    p {
+      font-size: 1em;
     }
-  }
-  
-  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
-  @media only screen and (max-width: 600px) {
-    div.id {
-      font-size: 30px;
-    }
-  }
-  
-  /* Carousel based CSS specifics */
+}
+/* Carousel based CSS specifics */
