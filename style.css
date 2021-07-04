@@ -21,8 +21,8 @@ html, body {
 #kuralDisplay-el {
 font-style:normal;
 font-size:1.7em;
-padding-top:0.3em;
-padding-bottom: 0.3em;
+padding-top:0.1em;
+padding-bottom: 0.1em;
 font-weight:bold;
 border:none;
 }
@@ -42,7 +42,7 @@ unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
   font-size: 2.9em;
   top: 0.625em;
   border-bottom: thin solid;
-  padding-bottom: 1.25em;
+  padding-bottom: 0.45em;
   opacity: 0.80;
 }
 
@@ -65,34 +65,20 @@ unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
 }
 
 #content {
-  height: 45em;
-  
+  height: 15em;
 } 
 
 p {
-  max-width: 30em;
+  max-width: 80em;
   color: rgb(194, 183, 183);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing:0.1em;
   text-align:center;
-  margin: 2.5em auto;
+  margin: 1.5em auto;
   text-transform:none;
-  line-height: 115%;
+  line-height: 145%;
   font-size: 1.3em;
   font-variant:normal;
-}
-
-p :hover {
-  text-decoration: none;
-}
-
-.container {
-  padding-top: 6em;
-  text-align: center;
-}
-
-h1 {
-  color: goldenrod;
 }
 
 button {
@@ -110,12 +96,11 @@ button {
   width: 6.25;
   border-radius: 0.125em;
   transition: 0.5s;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
-
 .container {
-  padding-top: 5em;
+  padding-top: 3em;
   text-align: center;
 }
 
@@ -125,56 +110,6 @@ button {
   width: 100%;
   bottom: 0.5em;
 }
-
-#b-nav ul {
-  margin: 0;
-  padding: 0.5em;
-  list-style-type: none;
-  text-align: center;
-}
-
-#b-nav ul li {
-  display: inline;
-}
-
-#b-nav ul li a {
-  text-decoration: none;
-  padding: .2em 1em;
-  background-color: black;
-  opacity: 0.4;
-}
-
-.hold {
-  width: 100%;
-  text-align: left;
-}
-
-#gen {
-  outline: none;
-  padding-top: 0.3125em;
-  text-decoration: none;
-  opacity: 0.6;
-  background-color: black;
-  color: rgb(110, 104, 104);
-  border: thin solid white;
-  height: 2.5em;
-  width: 6.25em;
-  border-radius: 0.125em;
-  transition: 0.5s;
-  padding-bottom: 0.3125em;
-}
-
-#gen:hover {
-  background-color: white;
-  color: black;
-  border: thin solid black;
-  opacity: 0.8;
-}
-
-#gen a {
-  text-decoration: none;
-}
-
 @media screen 
  and (min-width: 390px)
  and (min-height: 700px)  
