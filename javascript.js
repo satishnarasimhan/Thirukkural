@@ -1,23 +1,38 @@
 // Reference of quotes.js file
-document.write('<script type="text/javascript" language="javascript" src="quotes.js"></script>')
+//document.write('<script type="text/javascript" language="javascript" src="quotes.js"></script>')
+
+
 
 // Main JavaScript 
 // Get quoteDisplay for rendering quotes
 let kuralDisplayEl = document.getElementById("kuralDisplay-el")
 let transDisplayEl = document.getElementById("transDisplay-el")
 let meaningDisplayEl = document.getElementById("meaningDisplay-el")
+let contentDisplayEl = document.getElementById("content")
+
+const length = 1330 // Maximum number of Thirukkural copulets are 1330
 
 // Main function to generate quotes
 function quoteGenerator() {
-    let num = Math.floor(Math.random()*quotes.length)
+    let num = Math.floor(Math.random()*length)
 
-    for (let i = 0; i < quotes.length; i++)
-    {
-        kuralDisplayEl.innerHTML = quotes[num]
-        transDisplayEl.innerHTML = trans[num]
-        meaningDisplayEl.innerHTML = meaning[num]
-        console.log("Success") // For debug purposes only
-    }
+    fetch(`https://api-thirukkural.vercel.app/api?num=${num}`)
+      .then(response => response.json())
+      .then(data => {
+        for (let i = 0; i <= length; i++)
+        {
+        contentDisplayEl.innerHTML = 
+        `<p><em>${data.line1} ${data.line2}</em><br/>
+        <br/>${data.tam_exp}<br/>
+        <br/>${data.eng_exp}</p>`
+        //kuralDisplayEl.innerHTML = (data.line1 + data.line2)
+        //transDisplayEl.innerHTML = data.tam_exp
+        //meaningDisplayEl.innerHTML = data.eng_exp
+        console.log(num) // For debug purposes only
+      }
+
+      })
+    
 }
 
 // Function to be called when 'New Quote' button is clicked
